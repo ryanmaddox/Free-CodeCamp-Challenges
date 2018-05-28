@@ -1,0 +1,49 @@
+/* Style sheet for Tribute Page */
+
+body {
+  background-image: url(../img/abstract-background-design_1117-153.jpg);
+  background-size: cover;
+  margin-top: 40px;
+  font-family: 'Kavivanar', cursive;
+}
+
+header {
+  text-align: center;
+}
+
+#title {
+  font-size: 3em;
+}
+
+#main {
+  width: 1024px;
+  margin: 0 auto;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+#img-div {
+  width: 960px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+article p {
+  font-weight: 800;
+  padding: 5px;
+}
+
+#tribute-link {
+  color: black;
+}
