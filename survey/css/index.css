@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(48, 45, 45);
+}
+#survey-form {
+  background-color: #fff;
+}
+#customer-info {
+  background-color: rgb(189, 165, 165);
+}
+#customer-info fieldset {
+  color: purple;
+}
+.survey-container {
+  background-color: rgb(154, 145, 235);
+  margin: 0 auto;
+}
+#title {
+  color: white;
+  text-align: center;
+}
+#survey-form {
+  width: 960px;
+}
