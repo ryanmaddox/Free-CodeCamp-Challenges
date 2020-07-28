@@ -3,4 +3,6 @@
 */
 
 // this is an inline or single line comment
-var 
+
+/* This is an
+   Multiline comment */
