@@ -1,2 +1,3 @@
 # Free-CodeCamp-Challenges
-Samples of code working through challenges on Free CodeCamp.
+This folder contains the challenges to obtain certification
+through FreeCodeCamp.
