@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="X-UA-Compatible" content="IE-edge" />
+    <title>Using The Wild Card</title>
+</head>
+<body>
+    <!-- Script -->
+    <script src="wild-card.html">
+        /* - . this is the wild card character
+        * The wild card character will match any one character, this
+        * character is also known as dot or period.
+        * For example if you wanted to match "hug", "huh", "hut", and "hum"
+        * you could use /hu./
+        */
+        let Str = "Let's have fun with regular expresions";
+        let regex = /un./gi;
+        regex.test(Str);
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="X-UA-Compatible" content="IE-edge" />
+		<title>Extract Matches</title>
+	</head>
+	<body>
+		<!-- Scripts -->
+		<script>
+            /*  match() Method
+            *  The match() method is used on the string your wanting to 
+            * find the pattern in.
+            */
+			let myString = "Extract the word 'coding' from this string.";
+            let myRegex = /coding/i;
+            let result = myString.match(myRegex);
+			console.log(result) ;
+
+		</script>

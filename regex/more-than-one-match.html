@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="X-UA-Compatible" content="IE-edge" />
+		<title>Extract Matches</title>
+	</head>
+	<body>
+		<!-- Scripts -->
+		<script>
+            /* - g flag is used to look for more than one match in a string
+            * with the pattern your looking for. 
+            *  - Will return an array with the pattern(s) that you were looking for.
+            * - Will return null if there were no matches to the pattern you
+            * were looking for.
+            * 			 */
+			let myString = "Twinkle, twinkle, little star";
+			let myRegex = /twinkle/gi;
+			let result = myString.match(myRegex);
+			console.log(result);
+		</script>
+	</body>
+</html>
