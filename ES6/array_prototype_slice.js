@@ -1,0 +1,1 @@
+/** Using Array.prototype.slic() */
